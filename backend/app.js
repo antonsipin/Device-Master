@@ -1,0 +1,31 @@
+require('dotenv').config()
+const express = require('express')
+const app = express()
+const addDeviceRouter = require('./src/routes/addDevice')
+const getDevicesListRouter = require('./src/routes/getDevicesList')
+const changeStatusRouter = require('./src/routes/changeStatus')
+const deleteDeviceRouter = require('./src/routes/deleteDevice')
+const updateDeviceRouter = require('./src/routes/updateDevice')
+const setDeviceWarningRouter = require('./src/routes/setDeviceWarning')
+const isBeingEditedRouter = require('./src/routes/isBeingEdited')
+const dbConnect = require('./src/config/dbConnect')
+const PORT = process.env.PORT || 3100
+const cors = require('cors')
+
+dbConnect()
+app.set('session cookie name', 'sid')
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({ extended: false }))
+app.use('/addDevice', addDeviceRouter)
+app.use('/getDevicesList', getDevicesListRouter)
+app.use('/changeStatus', changeStatusRouter)
+app.use('/deleteDevice', deleteDeviceRouter)
+app.use('/updateDevice', updateDeviceRouter)
+app.use('/setDeviceWarning', setDeviceWarningRouter)
+app.use('/isBeingEdited', isBeingEditedRouter)
+app.listen(PORT, () => {
+  console.log('Server listening on port: ', PORT)
+})
+
+module.exports = app
