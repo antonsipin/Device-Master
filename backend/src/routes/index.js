@@ -4,6 +4,6 @@ const indexController = require('../controllers/index-controller')
 
 router
   .route('/')
-  .get(deviceController.index)
+  .get(indexController.index)
 
 module.exports = router
