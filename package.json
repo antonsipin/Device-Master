@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd device-master && npm install && npm build",
-    "start": "cd device-master/backend && npm install && npm start"
+    "build": "cd frontend && npm install && npm build",
+    "start": "cd backend && npm install && npm start"
   },
   "keywords": [],
   "author": "",
