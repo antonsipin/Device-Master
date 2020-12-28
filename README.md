@@ -5,5 +5,5 @@
   </b> <br />
   
  <b>
-Techs: JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk.
+Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
  </b> <br /> 
