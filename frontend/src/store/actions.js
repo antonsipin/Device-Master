@@ -14,7 +14,7 @@ export const thunkIsBeingEdited = (id, isBeingEdited) => async (dispatch) => {
 
     try {
 
-    const response = await fetch(`http://localhost:3100/isBeingEdited`, {
+    const response = await fetch(`/isBeingEdited`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
@@ -36,7 +36,7 @@ export const thunkSetDeviceWarning = (id, warning) => async (dispatch) => {
 
     try {
 
-    const response = await fetch(`http://localhost:3100/setDeviceWarning`, {
+    const response = await fetch(`/setDeviceWarning`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
@@ -58,7 +58,7 @@ export const thunkUpdateDevice = (id, name) => async (dispatch) => {
 
     try {
 
-    const response = await fetch(`http://localhost:3100/updateDevice`, {
+    const response = await fetch(`/updateDevice`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
@@ -80,7 +80,7 @@ export const thunkDeleteDevice = (id) => async (dispatch) => {
 
     try {
 
-    const response = await fetch(`http://localhost:3100/deleteDevice`, {
+    const response = await fetch(`/deleteDevice`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
@@ -102,7 +102,7 @@ export const thunkChangeDeviceStatus = (id, status) => async (dispatch) => {
 
     try {
 
-    const response = await fetch(`http://localhost:3100/changeStatus`, {
+    const response = await fetch(`/changeStatus`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
@@ -121,7 +121,7 @@ export const thunkChangeDeviceStatus = (id, status) => async (dispatch) => {
 export const thunkGetDevicesList = () => async (dispatch) => {
   try {
 
-    const response = await fetch(`http://localhost:3100/getDevicesList`, {
+    const response = await fetch(`/getDevicesList`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
@@ -141,7 +141,7 @@ export const thunkAddDevice = (device) => async (dispatch) => {
   if (device) {
     try {
     
-    const response = await fetch(`http://localhost:3100/addDevice`, {
+    const response = await fetch(`/addDevice`, {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'
