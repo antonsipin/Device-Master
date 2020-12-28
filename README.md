@@ -7,3 +7,7 @@
  <b>
 Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
  </b> <br /> 
+ 
+ <b>
+  Проект на Heroku: https://device-master.herokuapp.com/
+  </b> <br />
