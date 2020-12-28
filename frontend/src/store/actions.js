@@ -121,7 +121,7 @@ export const thunkChangeDeviceStatus = (id, status) => async (dispatch) => {
 export const thunkGetDevicesList = () => async (dispatch) => {
   try {
 
-    const response = await fetch(`/`, {
+    const response = await fetch('/getDevices', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'

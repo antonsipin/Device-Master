@@ -3,7 +3,6 @@ const router = express.Router()
 const deviceController = require('../controllers/device-controller')
 
 router
-  .route('/')
-  .get(deviceController.getDevicesList)
+  router.get('/', deviceController.getDevicesList);
 
 module.exports = router

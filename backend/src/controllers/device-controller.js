@@ -98,6 +98,7 @@ const getDevicesList = async (req, res) => {
 
   try {
     const devicesList = await Device.find()
+    console.log(devicesList);
     res.send(devicesList)
   } catch (err) {
     res.sendStatus(500)
