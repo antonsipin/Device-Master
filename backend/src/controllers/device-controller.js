@@ -73,22 +73,23 @@ const addDevice = async (req, res) => {
   try {
 
     const devicesList = await Device.find()
-    const names = devicesList.filter((el) => el.name)
 
-    if (names.includes(device)) {
-      res.sendStatus(500)
-    } else {
-      
-      let newDevice = new Device({
-        name: device,
-        status: false,
-        warning: false,
-        isBeingEdited: false
-      })
+    const names = devicesList.map(el => el.name)
 
-      await newDevice.save()
-      res.send(newDevice)
-    }
+          if (names.includes(device)) {
+            res.send({ error: 'This name already exists' })
+          } else {
+            
+          let newDevice = new Device({
+          name: device,
+          status: false,
+          warning: false,
+          isBeingEdited: false
+        })
+
+        await newDevice.save()
+        res.send(newDevice)
+        }
   } catch (err) {
     res.sendStatus(500)
   }
@@ -98,7 +99,6 @@ const getDevicesList = async (req, res) => {
 
   try {
     const devicesList = await Device.find()
-    console.log(devicesList);
     res.send(devicesList)
   } catch (err) {
     res.sendStatus(500)

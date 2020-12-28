@@ -1,6 +1,6 @@
 import { ADD_DEVICE, ADD_DEVICESLIST, ADD_ERROR, CHANGE_ERROR } from './types'
 
-export const addDeviceAC = (device) => ({ type: ADD_DEVICE, payload: { device } })
+export const addDeviceAC = (device) => ({ type: ADD_DEVICE, payload:  device  })
 
 export const addDevicesListAC = (devicesList) => ({ type: ADD_DEVICESLIST, payload: devicesList })
 
@@ -149,10 +149,13 @@ export const thunkAddDevice = (device) => async (dispatch) => {
       body: JSON.stringify({ device }),
     });
       let data = await response.json()
-      dispatch(addDeviceAC(data))
+      if (data.error === 'This name already exists') {
+        dispatch(notUniqueErrorAC())
+      } else {
+        dispatch(addDeviceAC(data))
+      }
     } catch (e) {
       console.log(e)
-      dispatch(notUniqueErrorAC())
     }
   } 
 } 
