@@ -53,7 +53,9 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
   
   <h3>
    <p align="center">
+   <p>Add device:
   <img src="frontend/public/1.gif" width="800" title="Add device">
+  </p>
   <img src="frontend/public/2.gif" width="800" title="Turn on the device">
   <img src="frontend/public/3.gif" width="800" title="Checking if the device is turned on">
   <img src="frontend/public/4.gif" width="800" title="Update the device">
