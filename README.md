@@ -15,31 +15,31 @@ Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
   How to start the app locally:
   </h3> 
   
-  <h4>
+  <p>
   <ul>
     <li>
       Clone this repo <i> git clone git@github.com:antonsipin/Device-Master.git </i>
     </li>
      <li>
-      Go to the backend folder <b> cd backend </b>
+      Go to the backend folder <i> cd backend </i>
     </li>
     <li>
-      Install the dependencies <b> npm install </b>
+      Install the dependencies <i> npm install </i>
     </li>
     <li>
       Place the .env file in the root directory (you can get it from me or take a look at .envexample file)
     </li>
     <li>
-      Run the app server <b> npm start </b> (The server starts at http://localhost:3100)
+      Run the app server <i> npm start </i> (The server starts at http://localhost:3100)
     </li>
     <li>
-      Go to the frontend folder <b> cd frontend </b>
+      Go to the frontend folder <i> cd frontend </i>
     </li>
     <li>
-      Install the dependencies <b> npm install </b>
+      Install the dependencies <i> npm install </i>
     </li>
     <li>
-      Run the app <b> npm start </b> (The app starts at http://localhost:3100 in browser and you will be able to test the app)
+      Run the app <i> npm start </i> (The app starts at http://localhost:3100 in browser and you will be able to test the app)
     </li>
   </ul>
-  </h4>
+  </p>
