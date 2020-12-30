@@ -46,7 +46,7 @@ Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
       Install the dependencies <i> npm install </i>
     </li>
     <li>
-      Run the app <i> npm start </i> (The app starts at http://localhost:3100 in browser and you will be able to test the app)
+      Run the app <i> npm start </i> (The app starts at http://localhost:3000 in browser and you will be able to test the app)
     </li>
   </ul>
   </p>
