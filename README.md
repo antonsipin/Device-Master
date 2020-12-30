@@ -51,8 +51,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
   </ul>
   </p> 
   
-  <h3>
-   <p align="center">
+  <h3 align="center">
    <p>Add device:</p><br />
   <img src="frontend/public/1.gif" width="800" title="Add device">
   
@@ -70,5 +69,4 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
   
   <h3>Delete the device:</h3>
   <img src="frontend/public/6.gif" width="800" title="Delete the device">
-  </p>
   </h3>
