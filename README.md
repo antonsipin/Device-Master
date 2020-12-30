@@ -11,7 +11,7 @@
   </p>
   
  <h3>
-Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
+Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk, REST API.
  </h3> 
  
  <h3>
