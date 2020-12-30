@@ -8,17 +8,17 @@
   </li> 
   </ul> <br />
  Information about the added devices is recorded in the database..
-  </p> <br />
+  </p>
   
  <h3>
 Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
- </h3> <br /> 
+ </h3> 
  
  <h3>
   The project is available on Heroku: https://device-master.herokuapp.com/
-  </h3> <br />
+  </h3>
   
-  <h3> <br />
+  <h3> 
   How to start the app locally:
   </h3> 
   
