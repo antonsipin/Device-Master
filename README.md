@@ -52,7 +52,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
   </p> 
   
   <h3 align="center">
-   <p>Add device:</p><br />
+   <p>Add device in the database:</p><br />
   <img src="frontend/public/1.gif" width="800" title="Add device"><br />
   
    <p>Turn on the device:</p><br />
@@ -67,7 +67,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
   <p>Checking if there is already such a device:</p><br />
   <img src="frontend/public/5.gif" width="800" title="Checking if there is already such a device"><br />
   
-  <p>Delete the device:</p><br />
+  <p>Delete the device from the database:</p><br />
   <img src="frontend/public/6.gif" width="800" title="Delete the device"><br />
   
   </h3>
