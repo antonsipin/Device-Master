@@ -18,7 +18,7 @@ Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
   <h4>
   <ul>
     <li>
-      Clone this repo <b> git clone git@github.com:antonsipin/Device-Master.git </b>
+      Clone this repo <i> git clone git@github.com:antonsipin/Device-Master.git </i>
     </li>
      <li>
       Go to the backend folder <b> cd backend </b>
