@@ -1,15 +1,22 @@
 # Device-Master
 
-<b> The application allows you to add, enable and disable devices, update and remove devices, and also performs several checks: 1) checking the uniqueness of the device on the page - if the device is not unique, then the application will report it 2) checking the safe device update: if the device is turned on, the application does not allow updating the device and displays a message to turn off the device before updating. Information about the added devices is recorded in the database..
-  </b> <br />
+<p> The application allows you to add, enable and disable devices, update and remove devices, and also performs several checks:
+  <ul>
+ <li> Checking the uniqueness of the device on the page - if the device is not unique, then the application will report it 
+ </li>  
+ <li> Checking the safe device update: if the device is turned on, the application does not allow updating the device and displays a message to turn off the device before updating. 
+  </li> 
+  </ul> <br />
+ Information about the added devices is recorded in the database..
+  </p> <br />
   
- <b>
+ <h3>
 Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
- </b> <br /> 
+ </h3> <br /> 
  
- <b>
+ <h3>
   The project is available on Heroku: https://device-master.herokuapp.com/
-  </b> <br />
+  </h3> <br />
   
   <h3> <br />
   How to start the app locally:
