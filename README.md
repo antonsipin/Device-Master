@@ -55,18 +55,19 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux
    <p>Add device:</p><br />
   <img src="frontend/public/1.gif" width="800" title="Add device">
   
-   <h3 align="center">Turn on the device:</h3>
+   <h3 align="center">Turn on the device:
   <img src="frontend/public/2.gif" width="800" title="Turn on the device">
-  
-  <h3 align="center">Checking if the device is turned on:</h3>
+  </h3>
+  <h3 align="center">Checking if the device is turned on:
   <img src="frontend/public/3.gif" width="800" title="Checking if the device is turned on">
-  
-  <h3 align="center">Update the device:</h3>
+  </h3>
+  <h3 align="center">Update the device:
   <img src="frontend/public/4.gif" width="800" title="Update the device">
-  
-  <h3 align="center">Checking if there is already such a device:</h3>
+  </h3>
+  <h3 align="center">Checking if there is already such a device:
   <img src="frontend/public/5.gif" width="800" title="Checking if there is already such a device">
-  
-  <h3 align="center">Delete the device:</h3>
+  </h3>
+  <h3 align="center">Delete the device:
   <img src="frontend/public/6.gif" width="800" title="Delete the device">
+  </h3>
   </h3>
