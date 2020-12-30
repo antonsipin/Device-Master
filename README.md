@@ -13,9 +13,9 @@ Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
   
   <h3> <br />
   How to start the app locally:
-  </h3> <br />
+  </h3> 
   
-  <h5>
+  <h4>
   <ul>
     <li>
       Clone this repo <b> git clone git@github.com:antonsipin/Device-Master.git </b>
@@ -42,4 +42,4 @@ Techs: JavaScript, Express.js, Node.js, MongoDB Cluster, React, Redux-Thunk.
       Run the app <b> npm start </b> (The app starts at http://localhost:3100 in browser and you will be able to test the app)
     </li>
   </ul>
-  </h5>
+  </h4>
